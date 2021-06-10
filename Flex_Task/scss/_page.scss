@@ -70,7 +70,7 @@
 
 .works {
     @include background-image($works-url, $works-width, $works-height);
-    background-position: bottom;
+    background-position: center bottom;
     h2 {
         margin-bottom: 23px;
     }

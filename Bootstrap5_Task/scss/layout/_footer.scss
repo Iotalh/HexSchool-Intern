@@ -1,0 +1,29 @@
+.subscribe {
+    @include background-image($subscribe-mobile-url, auto, $subscribe-height, cover);
+    input {
+        height: 60px;
+        border: 2px solid;
+        border-radius: 4px 0px 0px 4px;
+        &:focus {
+            @extend %remove-box-shadow;
+        }
+    }
+    .btn {
+        border-radius: 0px 4px 4px 0px;
+        height: 60px;
+        &:focus {
+            @extend %remove-box-shadow;
+        }
+    }
+}
+
+@include media-breakpoint-between(md, xl) {
+    .subscribe {
+        @include background-image($subscribe-url, $subscribe-width, $subscribe-height, 1920px 100%);
+    }
+}
+@include media-breakpoint-up(xxxl) {
+    .subscribe {
+        @include background-image($subscribe-wide-url, $subscribe-width, $subscribe-height, cover);
+    }
+}

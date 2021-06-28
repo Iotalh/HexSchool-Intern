@@ -1,0 +1,12 @@
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    background: $custom-member-select-indicator no-repeat;
+    background-size: $custom-member-select-bg-size;
+    background-position: 95% 50%;
+}
+.custom-select {
+    appearance: none;
+    background: $custom-product-info-select-bg;
+}

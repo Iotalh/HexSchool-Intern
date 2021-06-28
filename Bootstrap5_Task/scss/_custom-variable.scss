@@ -1,0 +1,125 @@
+// font
+
+$font-family-base:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// RFS
+
+$enable-rfs: false;
+
+// colors
+
+$primary: #916000;
+$primary-light: #AC8A46;
+$secondary-dark: #8D8D8D;
+$secondary: #707070;
+$secondary-light: #E0E0E0;
+$light: #FFFFFF;
+$dark: #000000;
+$gray-lighter: #A5A5A5;
+$gray-light: #848484;
+$gray: #818A91;
+
+$theme-colors: (
+	"primary": $primary,
+	"primary-light":$primary-light,
+	"secondary-dark": $secondary-dark,
+	"secondary": $secondary,
+  "secondary-light": $secondary-light,
+  "light": $light,
+  "dark": $dark,
+	"gray-lighter": $gray-lighter,
+	"gray-light": $gray-light,
+	"gray": $gray
+);
+
+$component-active-bg: $primary;
+
+// container
+
+$container-max-widths: ( sm: 540px, md: 720px, lg: 1110px, xl: 1110px, xxl: 1110px);
+
+// heading
+
+$headings-line-height: 1.5;
+$headings-margin-bottom: 0;
+
+// spacer
+
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: ($spacer * .25), // 4px
+2: ($spacer * .5), // 8px
+3: ($spacer * .75), // 12px
+4: $spacer, // 16px
+5: ($spacer * 1.25), // 20px
+6: ($spacer * 1.5), // 24px
+7: ($spacer * 1.75), // 28px
+8: ($spacer * 2), // 32px
+9: ($spacer * 2.25), // 36px
+10: ($spacer * 2.5), // 40px
+11: ($spacer * 3), // 48px
+12: ($spacer * 3.25), // 52px
+13: ($spacer * 3.75), // 60px
+14: ($spacer * 5), // 80px
+16: ($spacer * 7), // 112px
+17: 30px, // 30px
+18: 9px,
+19: 42px,
+20: 90px
+);
+
+// gutter
+
+$grid-gutter-width:30px;
+$gutters: (
+  0: 0,
+  1: $grid-gutter-width * .25,
+  2: $grid-gutter-width * .5,
+  3: $grid-gutter-width,
+  4: $grid-gutter-width * 1.5,
+  5: $grid-gutter-width * 3,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl:1920px
+);
+
+// card
+
+$card-bg: transparent;
+$card-border-radius: 0;
+
+// form
+$form-check-input-checked-bg-color: #916000;
+$input-color: #818A91;
+$input-placeholder-color: #818A91;
+$input-plaintext-color: #818A91;
+$custom-member-select-bg-size: 18px;
+$custom-member-select-indicator: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+$custom-product-info-select-bg: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 1rem center/8px 10px;
+
+// logo
+
+$logo-url: "../img/d’Perfume@2x.png";
+$logo-width: 128px;
+$logo-height: 38px;
+
+// subscribe
+
+$subscribe-url: "../img/subscribe.png";
+$subscribe-wide-url: "../img/subscribe@2x.png";
+$subscribe-mobile-url: "../img/subscribe-mobile.png";
+$subscribe-width: auto;
+$subscribe-height: 600px;
+
+// banner
+
+$banner-index-url: "../img/index/banner.png";
+$banner-index-mobile-url: "../img/index/mobile/banner-mobile.png";
+$banner-height: 840px;
+$banner-mobile-height: 480px;

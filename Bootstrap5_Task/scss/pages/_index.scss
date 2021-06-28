@@ -1,0 +1,25 @@
+.banner {
+    &-title {
+        font-size: 40px;
+    }
+    &-content {
+        font-size: 24px;
+    }
+    @include background-image($banner-index-url, 100%, $banner-height, cover);
+}
+
+@include media-breakpoint-down(sm) {
+    .banner {
+        &-title {
+            font-size: 32px;
+        }
+        &-content {
+            font-size: 20px;
+        }
+        @include background-image($banner-index-url, 100%, $banner-mobile-height, cover);
+    }
+}
+
+.sold-out {
+    background-color: rgba(#000000, 0.3);
+}

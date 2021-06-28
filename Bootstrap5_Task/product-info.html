@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>d’Perfume</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md bg-light sticky-top py-0 px-md-3 mb-10 mb-md-0">
+        <div class="container-md px-0 px-md-3">
+            <h1 class="px-5 px-md-0 my-18">
+                <a class="navbar-brand d-block align-middle" href="index.html">d’Perfume</a>
+            </h1>
+            <a class="link-secondary-dark d-block position-relative d-md-none ms-auto me-2" href="#">
+                <span class="material-icons cart-icon">shopping_cart</span>
+                <span
+                    class="cart-info position-absolute translate-middle badge rounded-pill bg-primary py-0 px-1">3</span>
+            </a>
+            <button class="navbar-toggler d-block d-md-none px-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="img/bars.svg" alt="menu">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav flex-lg-row">
+                    <li class="nav-item">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="products-list.html"><span
+                                class="material-icons d-none d-md-inline">store</span>
+                            Product</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="login.html">
+                            <span class="material-icons d-none d-md-inline">person</span>
+                            log in </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="#">
+                            <span class="material-icons d-none d-md-inline">favorite</span>
+                            Wishlist</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a class="nav-link h5 fw-normal text-center link-secondary-dark pe-0" href="#">
+                            <span class="material-icons d-none d-md-inline">shopping_cart</span>
+                            Cart(3)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- nav start-->
+    <div class="container-fluid bg-primary d-none d-md-block px-0 mb-0 mb-md-14">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav-link link-light ps-0 pe-2" href="#">CHANEL</a>
+                <a class="nav-link link-light px-2" href="#">Jo Malone</a>
+                <a class="nav-link link-light px-2" href="#">Curology</a>
+                <a class="nav-link link-light px-2" href="#">Dior</a>
+                <a class="nav-link link-light px-2" href="#">Chloe</a>
+                <a class="nav-link link-light px-2" href="#">ZARA</a>
+            </nav>
+        </div>
+    </div>
+    <!-- nav end-->
+    <!-- customize block start -->
+    <!-- addFav modal start -->
+    <div class="modal fade" id="addFav" tabindex="-1" aria-labelledby="addFav" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center text-primary">已加入我的收藏</div>
+            </div>
+        </div>
+    </div>
+    <!-- addFav modal end -->
+    <!-- addCart modal start -->
+    <div class="modal fade" id="addCart" tabindex="-1" aria-labelledby="addCart" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center text-primary">已加入購物車</div>
+            </div>
+        </div>
+    </div>
+    <!-- addCart modal end -->
+    <!-- product info start -->
+    <div class="container mb-10 mb-md-13">
+        <div class="row position-relative">
+            <div class="col-12 col-md-8 mb-7 mb-md-0">
+                <picture>
+                    <source srcset="img/info/info-1.png, img/info/info-1@2x.png 2x" media="(mix-width: 768px)">
+                    <source srcset="img/info/mobile/info-1-mobile.png, img/info/mobile/info-1-mobile@2x.png 2x"
+                        media="(max-width: 576px)">
+                    <img src="img/info/info-1.png" class="w-100" alt="product img">
+                </picture>
+            </div>
+            <div class="col-12 col-md-4 position-md-absolute end-0">
+                <h2 class="fw-bold">CHANEL N°5</h2>
+                <p class="fw-light mb-8">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
+                <span class="d-block fw-light mb-3">NT$4,980</span>
+                <div class="input-group">
+                    <select class="form-select form-select border-primary w-45">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button class="btn btn-primary w-55" type="button" data-bs-toggle="modal"
+                        data-bs-target="#addCart">加入購物車</button>
+                </div>
+
+                <div class="btn mb-10 mb-md-14 ps-0" data-bs-toggle="modal" data-bs-target="#addFav">
+                    <span class="material-icons link-primary">favorite</span>
+                    <span>加入我的收藏</span>
+                </div>
+                <h6 class="mb-2">商品購買須知</h6>
+                <p class="fw-light mb-5">產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。 商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。 D’Perfume
+                    盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。</p>
+                <h6 class="mb-2">退換貨須知</h6>
+                <p class="fw-light mb-10 mb-md-0">
+                    依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="row my-md-17">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <picture>
+                            <source srcset="img/info/info-2.png, img/info/info-2@2x.png 2x" media="(mix-width: 768px)">
+                            <source srcset="img/info/mobile/info-2-mobile.png, img/info/mobile/info-2-mobile@2x.png 2x"
+                                media="(max-width: 576px)">
+                            <img src="img/info/info-2.png" class="w-100" alt="product img">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <picture>
+                            <source srcset="img/info/info-3.png, img/info/info-3@2x.png 2x" media="(mix-width: 768px)">
+                            <source srcset="img/info/mobile/info-3-mobile.png, img/info/mobile/info-3-mobile@2x.png 2x"
+                                media="(max-width: 576px)">
+                            <img src="img/info/info-3.png" class="w-100" alt="product img">
+                        </picture>
+                    </div>
+                </div>
+                <picture>
+                    <source srcset="img/info/info-4.png, img/info/info-4@2x.png 2x" media="(mix-width: 768px)">
+                    <source srcset="img/info/mobile/info-4-mobile.png, img/info/mobile/info-4-mobile@2x.png 2x"
+                        media="(max-width: 576px)">
+                    <img src="img/info/info-4.png" class="w-100" alt="product img">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <!-- product info end -->
+    <!-- customize block end -->
+    <!-- footer start -->
+    <footer class="container-fluid bg-primary py-4">
+        <div class="container d-flex align-items-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/d’Perfumew.png" srcset="img/d’Perfumew.png 1x, img/d’Perfumew@2x.png 2x">
+                <span class="d-none">d’Perfume</span>
+            </a>
+            <small class="text-light text-nowrap">© 2020. All Rights Reserved.</small>
+            <ul class="nav d-none d-md-flex ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link link-light px-18" href="products-list.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light px-18" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light ps-18 pe-0" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

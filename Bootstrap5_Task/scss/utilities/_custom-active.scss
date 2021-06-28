@@ -1,0 +1,8 @@
+.mypage-nav .active {
+    border-bottom: 2px solid map-get($theme-colors, "primary");
+}
+
+.page-item .active {
+    color: map-get($theme-colors, "primary-light") !important;
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.hover-primary {
+    &::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid map-get($theme-colors, "primary");
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        transform-origin: 0% 50%;
+    }
+    &:hover:after {
+        transform: scaleX(1);
+    }
+}
+
+.page-link {
+    color: #000000;
+    &:hover {
+        color: map-get($theme-colors, "primary-light");
+        text-decoration: underline;
+        background-color: transparent;
+    }
+}

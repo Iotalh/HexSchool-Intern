@@ -1,0 +1,171 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+
+<main class="main container mb-8 col-10">
+  <nav class="nav row align-items-center py-8">
+    <h2 class="h4 fw-bold col-12 col-md-2 mb-0">Assignment</h2>
+    <div class="col-12 col-md-auto col-lg-10 d-flex align-items-center">
+
+      <div class="dropdown">
+        <button class="btn btn-outline-primary border-0 fs-6 fw-bold d-inline-block mb-0 ms-3" type="button" id="allCourses"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          All Courses<span class="material-icons align-middle link-success ms-2">expand_more</span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="allCourses">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <button class="btn hover-success p-0 ms-auto">
+        <span class="material-icons align-middle">search</span>
+      </button>
+      <button class="btn hover-success p-0 ms-6">
+        <span class="material-icons align-middle">notifications_active</span>
+      </button>
+    </div>
+  </nav>
+  <div class="d-flex align-items-center mb-1">
+    <button class="btn hover-success p-0">
+      <h4 class="fs-6 fw-bold mb-0">All (4)<span class="text-success material-icons align-middle">expand_more</span></h4> 
+    </button>
+    <p class="fs-8 ms-auto mb-0">2 comments</p>
+  </div>
+
+  <div class="row">
+    <div class="col-5 list-group ps-3">
+      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        <div class="d-flex justify-content-between">
+          <p class="fs-8 mb-0">Chapter Assignment 2</p>
+          <p class="fs-8 mb-0">4 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h4 class="fs-6 fw-bold text-truncate mb-0 col-7">Please check this file for me, thanks!</h4>
+          <p class="fs-8 mb-0">Emily Wang</p>
+        </div>
+      </a>
+
+      <a href="#" class="list-group-item list-group-item-action">
+        <div class="d-flex justify-content-between">
+          <p class="fs-8 mb-0">Chapter Assignment 1</p>
+          <p class="fs-8 mb-0">12 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h4 class="fs-6 fw-bold text-truncate mb-0 col-7">My Homework</h4>
+          <p class="fs-8 mb-0">David Xu</p>
+        </div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <div class="d-flex justify-content-between">
+          <p class="fs-8 mb-0">Final Assignment</p>
+          <p class="fs-8 mb-0">18 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h4 class="fs-6 fw-bold text-truncate mb-0 col-7">Have a problem with this…</h4>
+          <p class="fs-8 mb-0">Tony Wei</p>
+        </div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">
+        <div class="d-flex justify-content-between">
+          <p class="fs-8 mb-0">Final Assignment</p>
+          <p class="fs-8 mb-0">19 hrs ago</p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h4 class="fs-6 fw-bold text-truncate mb-0 col-7">Did I do it right?</h4>
+          <p class="fs-8 mb-0">Christina Lin</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-7">
+      <div class="card mb-4 position-relative">
+        <div class="card-header d-flex">
+          <div>
+            <p class="fs-8 mb-0">Chapter Assignment 2 / HTML&CSS</p>
+            <h4 class="fs-6 fw-bold mb-0">Please check this file for me, thanks!</h4>
+          </div>
+          <button class="btn hover-success p-0 ms-auto">
+            <span class="material-icons align-middle">more_vert</span>
+          </button>
+        </div>
+        <div class="card-body me-4">
+          <div class="d-flex align-items-start">
+            <div class="flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2134&q=80"
+                class="rounded-circle" alt="user photo" width="40" height="40">
+            </div>
+            <div class="flex-grow-1 border-bottom pb-4 ms-3">
+              <p class="h6 fw-bold mb-0">Emily Wang</p>
+              <p class="fs-8 text-secondary">10:38 AM (4 hours ago)</p>
+              <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the
+                following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ?
+                There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra
+                space below image?</p>
+              <a href="#" class="btn btn-light hover-bg-success border fw-bold pe-4" download="HW-2-David.zip"><span
+                  class="material-icons align-bottom rotate-3 me-2">attachment</span>HW-2-David.zip</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body me-4">
+          <div class="d-flex align-items-start">
+            <div class="flex-shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=2000&q=80"
+                class="rounded-circle" alt="user photo" width="40" height="40">
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <div class="d-flex align-items-start mb-4">
+                <div class="me-auto">
+                  <p class="h6 fw-bold mb-0">Andy Chen (You)</p>
+                  <p class="fs-8 text-secondary mb-0">13:24 AM (1 hours ago)</p>
+                </div>
+                <button class="btn hover-success py-0"><span class="material-icons-outlined align-middle lh-1">grade</span></button>
+                <button class="btn hover-success py-0"><span class="material-icons align-middle lh-1">edit</span></button>
+                <!-- <span class="material-icons-outlined align-middle me-6">grade</span>
+                <span class="material-icons align-middle">edit</span> -->
+              </div>
+
+
+              <p>
+                Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a,
+                b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p
+                and q.
+              </p>
+              <p>
+                You can:
+              </p>
+              <ul class="mb-0">
+                <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the
+                  <code>middle</code> ) or
+                </li>
+                <li>change the <code>display</code> so it isn’t inline.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="editor" class="editor d-none">This is some sample content.</div>
+        <div class="btns d-flex d-none z-2 position-absolute" id="btns">
+          <button type="button" class="btn btn-outline-success rounded-1 fw-bold ms-auto me-2"
+            id="cancel">Cancel</button>
+          <button type="submit" class="btn btn-success rounded-1 fw-bold me-6">Reply</button>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <button class="btn hover-bg-success p-0 me-6">
+          <span class="material-icons-outlined align-middle">chevron_left</span>
+        </button>
+        <button class="btn hover-bg-success p-0">
+          <span class="material-icons-outlined align-middle">chevron_right</span>
+        </button>
+        <button type="button" class="btn btn-outline-success rounded-1 fw-bold ms-auto me-4">Mark as read</button>
+        <button type="button" class="btn btn-success rounded-1 fw-bold" id="reply">Reply</button>
+      </div>
+    </div>
+  </div>
+
+</main>

@@ -1,2 +1,8 @@
 .vscode/
 package-lock.json
+public
+node_modules
+.publish
+dist
+.DS_Store
+.browserslistrc
